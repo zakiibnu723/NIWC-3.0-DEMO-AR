@@ -1,0 +1,46 @@
+.modal-overlay {  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  z-index: 1000; /* Ensure it appears above other content */  
+}  
+  
+.modal-content {  
+  background-color: #1e1e1e; /* Darker background for the modal */  
+  border-radius: 8px;  
+  padding: 20px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);  
+  text-align: center;  
+  width: 300px;  
+}  
+  
+.link-input {  
+  width: 100%;  
+  padding: 10px;  
+  margin: 10px 0;  
+  border: 1px solid #444;  
+  border-radius: 4px;  
+  background-color: #2a2a2a;  
+  color: #ffffff;  
+}  
+  
+.copy-button, .close-button {  
+  background-color: #6200ea; /* Primary button color */  
+  color: #ffffff;  
+  border: none;  
+  border-radius: 4px;  
+  padding: 10px 20px;  
+  cursor: pointer;  
+  margin: 5px;  
+  transition: background-color 0.3s;  
+}  
+  
+.copy-button:hover, .close-button:hover {  
+  background-color: #3700b3; /* Darker shade on hover */  
+}  

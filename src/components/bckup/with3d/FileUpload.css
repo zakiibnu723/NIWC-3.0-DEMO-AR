@@ -1,0 +1,100 @@
+body {  
+  background-color: #121212; /* Dark background */  
+  color: #ffffff; /* Light text color */  
+  font-family: 'Arial', sans-serif; /* Modern font */  
+  margin: 0;  
+  padding: 80px;  
+  box-sizing: border-box;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;  
+  height: fit-content;  
+}  
+
+button {
+  border: 0;
+  box-shadow: none;
+}
+  
+.file-upload-container {  
+  background-color: #1e1e1e; /* Darker container */  
+  border-radius: 8px;  
+  padding: 20px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);  
+  text-align: center;  
+  width: 1000px;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}  
+  
+.title {  
+  margin-bottom: 20px;  
+  font-size: 24px;  
+}  
+  
+.file-input {  
+  display: block;  
+  margin: 0 auto 20px;  
+  padding: 10px;  
+  border: 1px solid #444;  
+  border-radius: 4px;  
+  background-color: #2a2a2a;  
+  color: #ffffff;  
+  width: 60%;  
+  transition: border-color 0.3s;  
+}  
+  
+.file-input:hover {  
+  border-color: #ffffff; /* Change border color on hover */  
+}  
+  
+.upload-button {  
+  background-color: #6200ea; /* Primary button color */  
+  color: #ffffff;  
+  border: none;  
+  border-radius: 4px;  
+  padding: 10px 20px;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+  
+.upload-button:hover {  
+  background-color: #3700b3; /* Darker shade on hover */  
+}  
+  
+canvas {
+  width: 500px !important;
+  height: 300px !important;
+}
+.threed-preview {
+ width: 800px;
+ height: auto;
+ aspect-ratio: 4/3;
+}
+
+.preview-link-container {  
+  margin-top: 20px; /* Space above the link */  
+}  
+  
+.preview-link {  
+  font-size: 14px;  
+  color: #b0b0b0; /* Lighter text for file name */  
+  word-break: break-all; /* Break long URLs */  
+}  
+  
+.copy-button {  
+  background-color: #03dac5; /* Teal color for copy button */  
+  color: #ffffff;  
+  border: none;  
+  border-radius: 4px;  
+  padding: 5px 10px;  
+  cursor: pointer;  
+  margin-top: 10px; /* Space above the button */  
+  transition: background-color 0.3s;  
+}  
+  
+.copy-button:hover {  
+  background-color: #018786; /* Darker shade on hover */  
+}  
